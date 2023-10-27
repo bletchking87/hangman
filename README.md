@@ -7,9 +7,10 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 ## TABLE OF CONTENTS
 
 ## What this project does
+This project takes a user input of a single letter, and checks if the letter is part of the random fruit word. 
 ## Aim of project 
 ## What I learned
-
+Always use return statements - otherwise nothing is stored and the function cannot be chained. 
 
 ## Installation instructions
 
