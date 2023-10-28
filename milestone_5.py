@@ -7,13 +7,13 @@ class Hangman:
         """These are the attributes that are initialised in the class""" 
         self.word = random.choice(word_list)
         self.word_guessed = ["_"] * len(self.word)
-        self.num_letters = int
+        self.num_letters = len(self.word)
         self.num_lives = num_lives
-        word_list = list
+        self.word_list = word_list
         self.list_of_guesses = []
     #Check guess method:
     """
-    The check guess method
+    The check guess methods
     
     Takes the guess of the user as input and checks whether in the word. 
     it doesn't return anything just yet. 
@@ -58,15 +58,22 @@ class Hangman:
                 self.list_of_guesses.append(guess)
 
 
-
 animals = Hangman(["cows", "pigs"])
-animals.ask_for_input()
-
-                
 
 
 
 
 
-
+def play_game(word_list):
+    num_lives = 5
+    game = animals
+    game(word_list, num_lives)
+    while True: 
+        if num_lives == 0: 
+            print("You lost!")
+            break 
+        elif len > 0:
+            animals.ask_for_input()
+        else:
+            print("Congratulations. You won the game!")
 
