@@ -8,9 +8,18 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 
 ## What this project does
 This project takes a user input of a single letter, and checks if the letter is part of the random fruit word. 
+
+This is a hangman project that still needs some tweaking, as I have not thought fully about the logi
+
 ## Aim of project 
 ## What I learned
 Always use return statements - otherwise nothing is stored and the function cannot be chained. 
+
+print statements - if you're not sure what something does, use print 
+
+I have consolidated my use of classes in creating this project 
+
+I have consolidated my knowledge of how to set attributes and the use of 'self'
 
 ## Installation instructions
 
